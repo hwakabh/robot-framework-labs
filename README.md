@@ -1,7 +1,6 @@
 # codehouse-robot-framework
 
 ## Environments
-
 All the Python programs in this sub-directory are expected to run correctly under the environments below:
 
 | Components | Version |
@@ -12,7 +11,6 @@ All the Python programs in this sub-directory are expected to run correctly unde
 Note that the Python packages versions are noted in `requirements.txt`, and Python version itself is in `.python-version`, which is configuration file of `pyenv`, software of Python version controlling.  
 
 ## Setting up
-
 - Installation
 
 ```bash
@@ -22,6 +20,7 @@ $ source ./{YOUR_VIRTUAL_ENV_NAME}/bin/activate
 
 # Installating dependencies for Python
 $ pip install -r requirements.txt
+
 # (Optional) Install pip version if needed
 $ pip install --upgrade pip
 ```
